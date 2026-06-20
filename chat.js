@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     const { system, messages } = req.body;
 
     if (!messages || !Array.isArray(messages)) {
-      res.status(400).json({ error: 'messages massivi tələb olunur.' });
+      res.status(400).json({ error: 'messages massivi telab olunur.' });
       return;
     }
 
